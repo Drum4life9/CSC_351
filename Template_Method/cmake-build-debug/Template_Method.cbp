@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Template_Method"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/LVC/bjm008/Development/CSC_AT_LVC/CSC_351/Template_Method/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/LVC/bjm008/Development/CSC_AT_LVC/CSC_351/Template_Method/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/LVC/bjm008/Development/CSC_AT_LVC/CSC_351/Template_Method/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/LVC/bjm008/Development/CSC_AT_LVC/CSC_351/Template_Method/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/LVC/bjm008/Development/CSC_AT_LVC/CSC_351/Template_Method/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Template_Method">
+				<Option output="/home/LVC/bjm008/Development/CSC_AT_LVC/CSC_351/Template_Method/cmake-build-debug/Template_Method" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/LVC/bjm008/Development/CSC_AT_LVC/CSC_351/Template_Method/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/14/../../../../include/c++/14"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/14/../../../../include/c++/14/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/14/../../../../include/c++/14/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/14/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/LVC/bjm008/Development/CSC_AT_LVC/CSC_351/Template_Method/cmake-build-debug/Makefile&quot;  VERBOSE=1 Template_Method"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/LVC/bjm008/Development/CSC_AT_LVC/CSC_351/Template_Method/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/LVC/bjm008/Development/CSC_AT_LVC/CSC_351/Template_Method/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/LVC/bjm008/Development/CSC_AT_LVC/CSC_351/Template_Method/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Template_Method/fast">
+				<Option output="/home/LVC/bjm008/Development/CSC_AT_LVC/CSC_351/Template_Method/cmake-build-debug/Template_Method" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/LVC/bjm008/Development/CSC_AT_LVC/CSC_351/Template_Method/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/14/../../../../include/c++/14"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/14/../../../../include/c++/14/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/14/../../../../include/c++/14/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/14/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/LVC/bjm008/Development/CSC_AT_LVC/CSC_351/Template_Method/cmake-build-debug/Makefile&quot;  VERBOSE=1 Template_Method/fast"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/LVC/bjm008/Development/CSC_AT_LVC/CSC_351/Template_Method/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/LVC/bjm008/Development/CSC_AT_LVC/CSC_351/Template_Method/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/LVC/bjm008/Development/CSC_AT_LVC/CSC_351/Template_Method/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/LVC/bjm008/Development/CSC_AT_LVC/CSC_351/Template_Method/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/LVC/bjm008/Development/CSC_AT_LVC/CSC_351/Template_Method/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/LVC/bjm008/Development/CSC_AT_LVC/CSC_351/Template_Method/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/LVC/bjm008/Development/CSC_AT_LVC/CSC_351/Template_Method/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/LVC/bjm008/Development/CSC_AT_LVC/CSC_351/Template_Method/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/LVC/bjm008/Development/CSC_AT_LVC/CSC_351/Template_Method/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/LVC/bjm008/Development/CSC_AT_LVC/CSC_351/Template_Method/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/LVC/bjm008/Development/CSC_AT_LVC/CSC_351/Template_Method/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/LVC/bjm008/Development/CSC_AT_LVC/CSC_351/Template_Method/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/LVC/bjm008/Development/CSC_AT_LVC/CSC_351/Template_Method/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/LVC/bjm008/Development/CSC_AT_LVC/CSC_351/Template_Method/FileEditor.cpp">
+			<Option target="Template_Method"/>
+		</Unit>
+		<Unit filename="/home/LVC/bjm008/Development/CSC_AT_LVC/CSC_351/Template_Method/FileEditor.h">
+			<Option target="Template_Method"/>
+		</Unit>
+		<Unit filename="/home/LVC/bjm008/Development/CSC_AT_LVC/CSC_351/Template_Method/main.cpp">
+			<Option target="Template_Method"/>
+		</Unit>
+		<Unit filename="/home/LVC/bjm008/Development/CSC_AT_LVC/CSC_351/Template_Method/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

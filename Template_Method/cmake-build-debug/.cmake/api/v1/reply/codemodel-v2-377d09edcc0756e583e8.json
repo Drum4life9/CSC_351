@@ -9,7 +9,7 @@
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.29"
+						"string" : "3.28.1"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Template_Method::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Template_Method-Debug-a7c4d2eb85e106e0bc0f.json",
+					"jsonFile" : "target-Template_Method-Debug-e678362584407e977738.json",
 					"name" : "Template_Method",
 					"projectIndex" : 0
 				}
@@ -49,12 +49,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/b1sth3be5t/Development/CSC_AT_LVC/CSC_351/Template_Method/cmake-build-debug",
-		"source" : "/home/b1sth3be5t/Development/CSC_AT_LVC/CSC_351/Template_Method"
+		"build" : "/home/LVC/bjm008/Development/CSC_AT_LVC/CSC_351/Template_Method/cmake-build-debug",
+		"source" : "/home/LVC/bjm008/Development/CSC_AT_LVC/CSC_351/Template_Method"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 7
+		"minor" : 6
 	}
 }

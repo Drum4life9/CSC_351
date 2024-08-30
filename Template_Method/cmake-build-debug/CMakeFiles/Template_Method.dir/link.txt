@@ -1,0 +1,1 @@
+/usr/lib64/ccache/c++ -g CMakeFiles/Template_Method.dir/main.cpp.o CMakeFiles/Template_Method.dir/FileEditor.cpp.o -o Template_Method 
