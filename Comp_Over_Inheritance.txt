@@ -1,0 +1,13 @@
+Inheritance follows an "is-a" relationship, while composition follows a "has-a" relationship
+
+The classic example of this is if we have Person, Student, and Car classes. The student
+class would extend person because a student is a person. The car class would be incorporated
+as a member into the Person class, because most students have cars. This is composition, whereas
+the student/person relationship is an inheritance relationship. 
+
+Inheritance can be subject to a lot of volatility, since if a superclass (Person in this case) changes,
+it could easily break all / some features of the Student class. Composition (the relationship between
+car and person) more closely aligns with the SOLID principles, since all of the internal members of
+the car class (and functions, definitions, etc) are all contained within the car class. If the car class
+changes its internal data structures or definitions of its functions, then the Person class doesn't care
+and doesn't need to change itself. 
