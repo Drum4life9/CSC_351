@@ -1,21 +1,4 @@
 # ninja log v6
-0	335	1725208297798122983	CMakeFiles/Strategy_Pattern.dir/main.cpp.o	3a9122525eebf9f6
-335	375	1725208298133122995	Strategy_Pattern	38f6486997d4b1f9
-1	284	1725209181481287127	CMakeFiles/Strategy_Pattern.dir/main.cpp.o	3a9122525eebf9f6
-2	302	1725209181482287125	CMakeFiles/Strategy_Pattern.dir/Strategy.cpp.o	6805a96f49af0e6c
-2	284	1725209212396199679	CMakeFiles/Strategy_Pattern.dir/main.cpp.o	3a9122525eebf9f6
-1	287	1725209248300098753	CMakeFiles/Strategy_Pattern.dir/Strategy.cpp.o	6805a96f49af0e6c
-287	323	1725209248586097952	Strategy_Pattern	c86ab070d95e24dc
-1	279	1725209311610922296	CMakeFiles/Strategy_Pattern.dir/Strategy.cpp.o	6805a96f49af0e6c
-279	317	1725209311888921525	Strategy_Pattern	c86ab070d95e24dc
-1	283	1725216345699328719	CMakeFiles/Strategy_Pattern.dir/main.cpp.o	3a9122525eebf9f6
-1	296	1725216345699328719	CMakeFiles/Strategy_Pattern.dir/Strategy.cpp.o	6805a96f49af0e6c
-1	280	1725216430957930734	CMakeFiles/Strategy_Pattern.dir/main.cpp.o	3a9122525eebf9f6
-2	284	1725216430958930730	CMakeFiles/Strategy_Pattern.dir/Strategy.cpp.o	6805a96f49af0e6c
-284	319	1725216431240929447	Strategy_Pattern	c86ab070d95e24dc
-1	282	1725216456780814108	CMakeFiles/Strategy_Pattern.dir/main.cpp.o	3a9122525eebf9f6
-282	319	1725216457061812848	Strategy_Pattern	c86ab070d95e24dc
 1	281	1725216617696121903	CMakeFiles/Strategy_Pattern.dir/main.cpp.o	3a9122525eebf9f6
-1	284	1725216617696121903	CMakeFiles/Strategy_Pattern.dir/Strategy.cpp.o	6805a96f49af0e6c
-1	278	1725216623357098499	CMakeFiles/Strategy_Pattern.dir/Strategy.cpp.o	6805a96f49af0e6c
 278	315	1725216623634097356	Strategy_Pattern	c86ab070d95e24dc
+1	278	1725216623357098499	CMakeFiles/Strategy_Pattern.dir/Strategy.cpp.o	6805a96f49af0e6c
