@@ -1,0 +1,33 @@
+As I mentioned from Monday's assignment:
+
+Entities:
+    Assignments
+    Maybe grades
+Use Cases:
+    Students
+    Instructors
+    Admin
+
+Slices:
+    The admin adding / removing people
+        Needs admin, an interface for seeing, adding, removing people
+    Instructor viewing submissions by assignment
+        Need some way to get metadata about assignment, and to talk to DB to get list
+        of students, list of assignment submissions and/or grades for them
+    Instructor adding assignments
+        Needs to allow Instructor input/output for assignments, as well as setting
+        date, points, desc & name, etc. Also maybe have removing assignments in here too
+    Student submitting assignment
+        Definitely a whole slice dedicated to student submissions. This will involve uploading
+        some code, sending it off, getting it graded and returned to them
+    Student viewing unsubmitted assignments
+        Needs to get assignments for which the student hasn't submitted anything
+    Student viewing grades
+        Kind of mirrors unsubmitted assignments, but a student needs to get the information
+        for assignments they have submitted.
+
+Outer layer:
+    Some sort of UI (Flutter/dart probably)
+    Database (JSON? SQL? No-SQL online DB?)
+    Some way to input / output files, both from the instructor
+        and the code that the student submits to be compiled
