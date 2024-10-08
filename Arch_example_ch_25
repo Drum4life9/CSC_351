@@ -1,0 +1,13 @@
+Levels:
+
+Entites:
+    - Game state (single & multiplayer)
+    - Business rules for Move management and player management
+Use Cases:
+    - Allowing the single player to move
+    - Displaying other player's moves on the player's computer
+    - Down & Dirty about how the game works, and how to actually let the player move
+Details:
+    - Network microservices for implementing game
+    - Language
+    - Data Storage

@@ -1,0 +1,33 @@
+Folder structure:
+
+- Entities:
+    - Assignment.dart
+    - User.dart (abstract)
+    - Submission.dart
+- Entities_layer_2:
+    - Student.dart
+    - Instructor.dart
+    - Admin.dart
+- Use_Cases
+    - Add_new_user.dart
+    - Submit_Assignment.dart
+    - Get_Grade_reports.dart
+    - Create_assignment.dart
+- Relevant_ORM_Data_Mappers
+    - insert database -> objects here
+- Database_Interfaces
+    - iStudent_CRUD.dart
+    - iInstructor_CRUD.dart
+    - iAdmin_CRUD.dart
+- Database_Implementation
+    - Student_CRUD.dart
+    - Instructor_CRUD.dart
+    - Admin_CRUD.dart
+- Presenters
+    - Admin_present.dart
+    - Student_present.dart
+    - Instructor_present.dart
+    - Add_new_user_present.dart
+    - Submit_Assignment_present.dart
+    - Get_Grade_reports_present.dart
+    - Create_assignment_present.dart
