@@ -1,3 +1,6 @@
 [submodule "CSC_351_project_1"]
 	path = CSC_351_project_1
 	url = https://github.com/Drum4life9/CSC_351_project_1
+[submodule "project_2"]
+	path = project_2
+	url = https://github.com/CDS-at-LVC/project2-comp-bois-ariel-brian-brady
