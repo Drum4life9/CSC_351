@@ -1,0 +1,7 @@
+1) No, the Kitty problem did not suffer purely because of the use of services. The Kitty problem suffered because by employing services (and only services) the dependencies are falsely decoupled. Adding services into an already steady architecture would be a fine use of services in this case
+
+2) Services for project:
+    - Grading. We could do this separately from the app for sure
+    - Honestly anything that's outside the core business rules could be a service. Database (over rest api, ), getting HTML pages for views for GUI, we could probably pick just about anything
+
+    Yes we can wait to implement services, just slap an interface in there and then we can swap out whatever details we need. Ok, that's a little simplified, but we can pretty easily swap out pieces using interfaces and abstraction. I've done this in the app I worked on last semester, we had the database running on a REST API on the LVC server, but hard coded some objects to get the GUI tested before we had authentication with Yarnall working.
