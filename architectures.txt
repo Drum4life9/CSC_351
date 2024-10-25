@@ -20,6 +20,7 @@ Client-Server
 - Disadvantages:
     - Data packets can be lost, spoofed, or manipulated
     - Prone to virus and Trojan attacks
+
 Model-View-Controller
     - 3 main components
     - clear Separate business logic, ui logic, and
@@ -33,6 +34,7 @@ Model-View-Controller
     - not suitable for small applications
     - increased complexity
     - Django is an example!!
+
 Pipe-Filter
     - Series of steps linked by channels
     - Sounds like template pattern, extreme modularity
