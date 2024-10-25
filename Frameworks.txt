@@ -1,0 +1,18 @@
+Dart & Flutter is a pretty powerful framework that I've used before and
+am planning to use for this project. I've been trying to think about how
+it fits into our dependency graph, especially with things like state
+management. The GUI pages are pretty simple, they are purely outside
+details. The mental struggle I'm running into is where to things like
+Blocs and Cubits fall? Bloc stands for Business Logic Component, so that
+sounds a lot like the use case, which handles the flow of logic from the
+other components in a slice. The Cubits are essentially the Data providers
+that push the data to the front-end. The problem with this structure that
+I'm trying to think through is that now our components are technically
+dependent on our framework, but I don't know if there's a way around that
+using an effective state management tool with Flutter.
+
+I found an interesting article that seems to help, but it still seems very
+Flutter-structured, which I guess that's the choice that we had to make when
+going for Flutter
+
+https://felipeemidio.medium.com/folder-structure-for-flutter-with-clean-architecture-how-i-do-bbe29225774f

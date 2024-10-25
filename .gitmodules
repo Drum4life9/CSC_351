@@ -4,3 +4,6 @@
 [submodule "project_2"]
 	path = project_2
 	url = https://github.com/CDS-at-LVC/project2-comp-bois-ariel-brian-brady
+[submodule "fauxapp-Drum4life9"]
+	path = fauxapp-Drum4life9
+	url = /fauxapp-Drum4life9/

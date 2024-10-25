@@ -1,0 +1,58 @@
+Hexagonal
+    - Ports & adapters
+    - Separated into components
+- Advantages:
+    - Changes to business logic without changes to UI
+        or DB
+    - Easily exchangeable components
+    - Works well with DDD
+    - Testing is super easy independently
+- Disadvantages:
+    - Can require a lot of overhead maintenance
+    - Using ports can cause latency issues
+Client-Server
+    - Designated server for requests and client
+        for making them
+- Advantages:
+    - Centralized within the server
+    - Cost efficient (storage is cheap!)
+    - Can be scaled independently.
+- Disadvantages:
+    - Data packets can be lost, spoofed, or manipulated
+    - Prone to virus and Trojan attacks
+Model-View-Controller
+    - 3 main components
+    - clear Separate business logic, ui logic, and
+        input logic
+- Advantages:
+    - control over URL and HTML mapping
+    - Can be Separately tested
+    - Works well for large web adapters
+- Disadvantages:
+    - difficult to read, change, test, and reuse model
+    - not suitable for small applications
+    - increased complexity
+    - Django is an example!!
+Pipe-Filter
+    - Series of steps linked by channels
+    - Sounds like template pattern, extreme modularity
+    - Filters carry out individual tasks
+- Advantages:
+    - Easy to test individual modules
+    - Easy to understand and visualize
+    - Optimize resource usage
+- Disadvantages:
+    - Performance overhead (sometimes a lot)
+    - Latency
+    - State management
+Space-Based
+    - Distributed systems-based
+    - Manages data within individual processing unit
+        nodes
+- Advantages:
+    - High scalability, low-latency
+    - in-memory data storage
+    - cost-effective
+- Disadvantages:
+    - Not easy to test
+    - Not easy to develop
