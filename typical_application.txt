@@ -1,0 +1,17 @@
+Each of our functionalities (use cases) will probably have
+    their own "UseCase" class, like how we defined the
+    "UseCase1" for the homework.
+The search and music recommendations will probably have
+    similar presenters to present a gui to the user.
+The UserInterface (similar to the text-based gui from our
+    simple application) would definitely need to be more
+    robust, allowing our users to quickly access and stream
+    multiple songs. This could also support ads displayed
+    on the gui, be presented through an ad_presenter class.
+Streaming needs to be fast, probably going through some
+    high-quality audio presenter. This class (being derived
+    from an interface) would also contain a partner class
+    probably called ad_audio_presenter, which could be
+    swapped out every few songs to present the user with
+    and audio ad until they pay for a premium service.
+    "Want a break from the ads....?" - Spotify
