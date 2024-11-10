@@ -1,0 +1,83 @@
+Ubiquitous language:
+    - Building up a common rigorous language
+    between developers and users
+    - Essentially we need the developers and
+    the stakeholders, project managers, and
+    anyone else involved in the project to
+    talk the same language and understand
+    what's going on. I've experienced this in
+    my work, where sometimes I don't talk
+    about the details or the specific
+    implementations in order to make the
+    process available and understandable to
+    all parties involved
+    - Lingo needs to be centered on the domain
+Domains and subdomains:
+    - A domain is an "area of interest over
+    which a person has control" - Cambridge
+    Dictionary
+    - There are many different ways to define
+    domain boundaries, so it's important that
+    clear privacy, responsibility, and
+    restrictability rules and boundaries are
+    set across and among domains
+    - A subdomain is a domain in itself, but
+    part of a higher level domain.
+    - Essentially the terms can be used
+    interchangeably
+Bounded contexts:
+    - A bounded context is the central form
+    of relationship of obejcts between
+    contexts, domains, or other sub-groups
+    of the overall project.
+    - Bounded contexts have shared meanings,
+    language, and functionality across the
+    boundaries between which they span
+Entities and value objects:
+    - similar discussion to clean arch from
+    Uncle Bob, entities are things that are
+    "above" (per se) to value objects
+    - Entities have meaning, they have longer
+    lifespans in code and in the overall
+    context
+    - Example: A dollar bill would be a value
+    object, since one dollar bill is the same
+    as another one in terms of monetary value
+    and it's meaning. But a 1$ / 5$ bill are
+    different entities, since they mean
+    different things in the overall scope of
+    the economy
+    - Value objects are immutable, while
+    entities are dynamic
+    - Prefer value objects over entities
+
+
+
+Alright, so it seems like there's a lot of
+    careful emphasis placed on language,
+    having clearly defined boundaries, rules,
+    lifespans, immutability requirements, and
+    a general openness about what's going on.
+Given the name, where clean architecture seems
+    more focused on the use cases, making
+    things dynamic, and keeping things
+    distinctly separate through interfaces and
+    such, DDD focuses on keeping the code
+    revolving around the purpose of the
+    domain, so that it drives the design of
+    the code. This seems similar to screaming
+    architecture, that the program should
+    clearly look like and dictate effectively
+    what it's doing.
+It seems very client-friendly, whereas clean
+    architecture couldn't care less about
+    the outside looking in, as long as things
+    are separated enough for the job to get
+    done, it doesn't matter how messy it looks
+    or what things are called. DDD has a lot
+    of transparency with shareholders,
+    allowing them to feel comfortable with
+    understanding the project as a whole and
+    how different pieces are integrated with
+    each other.
+

@@ -1,0 +1,36 @@
+I want to preface this with that I am more than willing to share and talk about my code in class. I wrote up
+enough using examples from my first two projects, and I think I can explain enough of what's happening to
+describe this difference clearly enough.
+
+Alright, so it depends on how much Flutter we want to get into whether or not we can separate the framework
+from the other pieces. So far, both of my projects have done both a good and bad job at doing this. My first
+project did a very decent job at separating out the components, even though I just slapped some code together.
+The biggest problem I've run into while thinking about this issue is state management. Other than this, all
+the dart classes, entities, interfaces, translators can all be very easily separated and boundaries defined
+clearly.
+
+To keep state management handled well, we can use a package Tuple that allows us to make tuples (which are not
+native to dart). We can essentially pass a tuple with Tuple2<StateOfReturn, result>, where we can define
+StateOfReturn as an enum that tells us whether the presenter is a success, or failure. We can assume that once
+we immediately call the presenter, we would be just loading the data and waiting for the Future until we get
+the result back. We can directly call this presenter, and have it return us a success or failure, along with
+appropriate dynamic data in either case.
+
+To handle state management poorly, we can use the Bloc / Cubit structure that Flutter provides us through its
+official packaging system. The tradeoff here is that the loading, success, and failure states are built
+directly into the bloc and cubit structure, which makes things super easy and integrateable. However,
+essentially our cubits now become the "Use case business logic", meaning it is now responsible for the order
+of operations of the calling of functions. We could split this out into a separate driver class to handle the
+calling of functions, but this limits our stating ability. Hypothetically, let's say we wanted to let the user
+know that the process is halfway complete. We couldn't do this without defining a halfway-done state for the
+cubit to emit. This is super easy to tell the UI to refresh it's page while we're still loading data, but we
+would not be able to do this from external class. If anything, we'd need 2 different function calls in our
+"presenter", meaning it's sounding much less like a presenter and much more like a driver for this business
+logic. Thus, if something were to change, our UI kind of depends on the order of the functions that are called
+and the states that are received, so this would be an issue for clean architecture.
+
+The overall tradeoff (in my opinion) is that the Cubit/Bloc structure is EASY to use. It's super easy to emit
+changes from the cubits that are caught by the blocs on the front-end, and allow the UI updates to happen so
+much easier. I love using bloc/cubit designs, once you understand them they feel super intuitive. However, now
+we are relying directly on something that is integrated into the framework for our business logic, and
+separating this out becomes very difficult to refactor.
