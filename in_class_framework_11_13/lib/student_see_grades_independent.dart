@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:intl/intl.dart';
 import 'package:tuple/tuple.dart';
 
 class StudentPage extends StatefulWidget {
@@ -20,10 +19,6 @@ class _StudentPageState extends State<StudentPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Theme.of(context).colorScheme.primaryContainer,
-        title: Center(child: Text('Welcome ${p.toString()}')),
-      ),
       body: FutureBuilder<Tuple2<StateOfRequest, List<Submission>>>(
         future: JSONPresenter.getSubmissions(p),
         builder: (BuildContext context,
@@ -61,37 +56,7 @@ class _StudentPageState extends State<StudentPage> {
     return Padding(
       padding: const EdgeInsets.all(2.0),
       child: Card(
-        child: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 30.0),
-          child: Row(
-            children: [
-              Column(
-                children: [
-                  Text(a.assignmentName),
-                ],
-              ),
-              Padding(
-                padding: const EdgeInsets.all(2.0),
-                child: VerticalDivider(
-                  color: Theme.of(context).primaryColor,
-                  width: 8,
-                ),
-              ),
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 10.0),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                        'Due Date: ${DateFormat('yyyy-MM-dd @ kk:mm').format(a.dateSubmitted)}'),
-                    Text('No. of Points: ${a.earnedPoints}'),
-                    Text('No. of Test Cases: ${a.maxPoints}')
-                  ],
-                ),
-              )
-            ],
-          ),
-        ),
+        child: Text(a.assignmentName),
       ),
     );
   }
