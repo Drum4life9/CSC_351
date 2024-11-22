@@ -1,0 +1,9 @@
+# ninja log v6
+3	764	1732160208511908842	CMakeFiles/Abstract_factory_Singleton_pattern.dir/singleton.cpp.o	a1f894048ca808b8
+1	34	1732160255001992485	build.ninja	92c8b92ca0506908
+3	638	1732157724755544518	CMakeFiles/Abstract_factory_Singleton_pattern.dir/abstract_factory.cpp.o	8c8f5187397cd2df
+2	18	1732160218959376615	CMakeFiles/Abstract_factory_Singleton_pattern.dir/main.cpp.o	8f03b9216f603bdd
+19	99	1732160218976377376	Abstract_factory_Singleton_pattern	26cb02596baf96e1
+1	27	1732160255001992485	build.ninja	92c8b92ca0506908
+1	694	1732160255011992934	CMakeFiles/Abstract_factory_Singleton_pattern.dir/main.cpp.o	8f03b9216f603bdd
+695	780	1732160255706024080	Abstract_factory_Singleton_pattern	67fa97c5110f7f03

@@ -1,0 +1,33 @@
+Some common drawbacks of using microservices
+are:
+
+(Stole I mean borrowed I mean stole from geeksforgeeks)
+
+1) When microservices share a single
+centralized database, it can compromise
+their independence and scalability.
+2) Microservices that frequently communicate
+for minor tasks can create excessive network
+traffic, leading to delays and increased
+latency.
+3) Creating too many microservices for small
+functions can add unnecessary complexity to
+the system.
+4) If the boundaries between microservices
+are not clearly defined, it can cause
+confusion about their responsibilities.
+5) Failing to address security issues in
+microservices can expose the system to
+vulnerabilities and potential data breaches.
+
+Microservices seem like a great tool to
+create wide scalable applications when
+things need to grow horizontally at a fast
+or unknown rate. The example geeksforgeeks
+gives is of Amazon, and this makes sense
+considering the sheer size of the amount of
+data transferred and things going on. Being
+able to scale our applications horizontally
+has a lot of benefits, but if not set up,
+optimized, or secured properly it can be a
+hassle or even dangerous for protected data.

@@ -1,0 +1,21 @@
+This method of async functions (as it deals with Flutter and
+how Dart uses Futures) seems like it's a lot more coupled to
+the structure of Futures than what another queue based system
+would be like. I can picture how it works by building the
+implementation directly into the Button (with the onPressed:
+function), this seems like it would cause issues. Now, some
+of our use-case functionality code is built into a button
+directly, which is definitely bad. If we swap out the button,
+this no bueno. We could get around this by breaking out the
+functionality into a separate class which is certainly
+better, but there's less we can do with this. If we were
+returned a result and wanted to do something with the new
+state of the app, now we seem to get some functionality back
+into the button, as we'd have to handle the response somehow.
+
+Using Cubits seems more like the queue based system, as we
+get a request in, and then can have awaits inside the cubit.
+The cubit then pushes responses back to the UI at appropriate
+times, which are "listeners" of that particular function
+call. The cubit can handle the use-case functionality, while
+all the UI cares about is displaying.
